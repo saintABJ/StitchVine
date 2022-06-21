@@ -39,7 +39,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 IconButton(
                   icon: const Icon(
                     Icons.arrow_back_ios,
-                    color: Palette.blackIconColor,
+                    color: blackIconColor,
                     size: 18,
                   ),
                   onPressed: () => Navigator.pop(context),
@@ -49,7 +49,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     fontSize: 24,
                     family: 'Poppins-Bold',
                     weight: FontWeight.w700,
-                    colorName: Palette.textColor4,
+                    colorName: textColor4,
                     letterSpace: 0),
               ]),
               SizedBox(
@@ -72,8 +72,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             family: 'Poppins-Medium',
                             weight: FontWeight.w500,
                             colorName: !_isActive
-                                ? Palette.primaryColor
-                                : Palette.inactiveColor,
+                                ? kPrimaryColor
+                                : inactiveColor,
                             letterSpace: 1.25),
                         if (!_isActive)
                           SizedBox(
@@ -85,8 +85,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           height: getProportionateScreenHeight(2),
                           width: getProportionateScreenWidth(161),
                           color: !_isActive
-                              ? Palette.primaryColor
-                              : Palette.whiteTextColor,
+                              ? kPrimaryColor
+                              : backGroundColor,
                         )
                       ],
                     ),
@@ -105,8 +105,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             family: 'Poppins-Medium',
                             weight: FontWeight.w500,
                             colorName: _isActive
-                                ? Palette.primaryColor
-                                : Palette.inactiveColor,
+                                ? kPrimaryColor
+                                : inactiveColor,
                             letterSpace: 1.25),
                         if (_isActive)
                           SizedBox(
@@ -118,8 +118,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           height: getProportionateScreenHeight(2),
                           width: getProportionateScreenWidth(161),
                           color: _isActive
-                              ? Palette.primaryColor
-                              : Palette.whiteTextColor,
+                              ? kPrimaryColor
+                              : backGroundColor,
                         )
                       ],
                     ),
@@ -195,13 +195,13 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   context: context,
                   height: 48,
                   width: 303,
-                  buttonColor: Palette.primaryColor,
+                  buttonColor: kPrimaryColor,
                   nextPage: const LogInScreen(),
                   buttonText: 'Next',
                   buttoTextSize: 16,
                   buttonTextfamily: 'Poppins-Medium',
                   buttonTextweight: FontWeight.w500,
-                  buttonTextColor: Palette.whiteTextColor,
+                  buttonTextColor: backGroundColor,
                   space: 0.06),
             ],
           ),
@@ -224,7 +224,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
             fontFamily: 'Roboto',
             fontWeight: FontWeight.w400,
             color:
-                isInput ? Palette.primaryColor : Colors.black.withOpacity(0.6)),
+                isInput ? kPrimaryColor : Colors.black.withOpacity(0.6)),
         hintText: hinttext,
         hintStyle: TextStyle(
           color: Colors.black.withOpacity(0.87),
@@ -235,7 +235,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
         enabledBorder: OutlineInputBorder(
           borderSide: BorderSide(
               color: isInput
-                  ? Palette.primaryColor
+                  ? kPrimaryColor
                   : Colors.black.withOpacity(0.6),
               width: 2),
           borderRadius: BorderRadius.circular(10.0),
@@ -247,7 +247,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
         focusedBorder: OutlineInputBorder(
           borderSide: BorderSide(
               color: isInput
-                  ? Palette.primaryColor
+                  ? kPrimaryColor
                   : Colors.black.withOpacity(0.6),
               width: 1.5),
           borderRadius: BorderRadius.circular(10.0),

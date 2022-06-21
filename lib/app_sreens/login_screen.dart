@@ -85,12 +85,12 @@ class _LogInScreenState extends State<LogInScreen> {
                   hintText: 'Password',
                   hintStyle: TextStyle(
                       fontWeight: FontWeight.w400,
-                      color: Palette.hintTextColor,
+                      color: hintTextColor,
                       fontSize: getProportionateScreenHeight(12),
                       fontFamily: 'Poppins'),
                   suffixIcon: const Icon(
                     Icons.visibility,
-                    color: Palette.primaryColor,
+                    color: kPrimaryColor,
                     size: 20,
                   )),
               obscureText: true,
@@ -110,7 +110,7 @@ class _LogInScreenState extends State<LogInScreen> {
                       decoration: TextDecoration.underline,
                       fontFamily: 'Poppins-Medium',
                       fontSize: getProportionateScreenHeight(12),
-                      color: Palette.primaryColor,
+                      color: kPrimaryColor,
                       fontWeight: FontWeight.w500,
                     ),
                   ))
@@ -121,13 +121,13 @@ class _LogInScreenState extends State<LogInScreen> {
               context: context,
               height: 50,
               width: 285,
-              buttonColor: Palette.primaryColor,
+              buttonColor: kPrimaryColor,
               nextPage: LogInScreen(),
               buttonText: 'Log in',
               buttoTextSize: 16,
               buttonTextfamily: 'Poppins-Medium',
               buttonTextweight: FontWeight.w500,
-              buttonTextColor: Palette.whiteTextColor,
+              buttonTextColor: backGroundColor,
               space: 0.06),
           SizedBox(height: getProportionateScreenHeight(208)),
           createGeneralText(
@@ -135,7 +135,7 @@ class _LogInScreenState extends State<LogInScreen> {
               fontSize: 12,
               family: 'Poppins-Regular',
               weight: FontWeight.w400,
-              colorName: Palette.hintTextColor,
+              colorName: hintTextColor,
               letterSpace: 0),
           SizedBox(
             height: getProportionateScreenHeight(8),
@@ -152,7 +152,7 @@ class _LogInScreenState extends State<LogInScreen> {
                   fontSize: 14,
                   family: 'Poppins',
                   weight: FontWeight.w400,
-                  colorName: Palette.hintTextColor,
+                  colorName: hintTextColor,
                   letterSpace: 0),
               TextButton(
                   onPressed: () {
@@ -164,7 +164,7 @@ class _LogInScreenState extends State<LogInScreen> {
                   fontSize: 14,
                   family: 'Poppins',
                   weight: FontWeight.bold,
-                  colorName: Palette.primaryColor,
+                  colorName: kPrimaryColor,
                   letterSpace: 0))
             ],
           )

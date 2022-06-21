@@ -63,7 +63,7 @@ class _StartedState extends State<Started> {
                               fontSize: 28,
                               family: 'Vice City Sans',
                               weight: FontWeight.w700,
-                              colorName: Palette.whiteTextColor,
+                              colorName: backGroundColor,
                               letterSpace: 0.36,
                             ),
                           ),
@@ -77,7 +77,7 @@ class _StartedState extends State<Started> {
                               fontSize: 15,
                               family: 'Inter',
                               weight: FontWeight.w400,
-                              colorName: Palette.whiteTextColor,
+                              colorName: backGroundColor,
                               letterSpace: -0.24,
                             ),
                           ),
@@ -88,13 +88,13 @@ class _StartedState extends State<Started> {
                               context: context,
                               height: 46,
                               width: 230,
-                              buttonColor: Palette.primaryColor,
+                              buttonColor: kPrimaryColor,
                               nextPage: const LogInScreen(),
                               buttonText: 'Get started',
                               buttoTextSize: 15,
                               buttonTextfamily: 'Poppins',
                               buttonTextweight: FontWeight.w600,
-                              buttonTextColor: Palette.whiteTextColor,
+                              buttonTextColor: backGroundColor,
                               space: 0.06),
                           SizedBox(
                             height: getProportionateScreenHeight(40),
@@ -106,7 +106,7 @@ class _StartedState extends State<Started> {
                                 height: getProportionateScreenHeight(5),
                                 width: getProportionateScreenWidth(5),
                                 decoration: const BoxDecoration(
-                                    color: Palette.whiteTextColor,
+                                    color: backGroundColor,
                                     shape: BoxShape.circle),
                               ),
                               SizedBox(
@@ -119,7 +119,7 @@ class _StartedState extends State<Started> {
                                 height: getProportionateScreenHeight(9),
                                 width: getProportionateScreenWidth(9),
                                 decoration: const BoxDecoration(
-                                    color: Palette.whiteTextColor,
+                                    color: backGroundColor,
                                     shape: BoxShape.circle),
                                 child: Container(
                                   padding: EdgeInsets.symmetric(
@@ -133,7 +133,7 @@ class _StartedState extends State<Started> {
                                     height: getProportionateScreenHeight(5),
                                     width: getProportionateScreenWidth(5),
                                     decoration: const BoxDecoration(
-                                        color: Palette.whiteTextColor,
+                                        color: backGroundColor,
                                         shape: BoxShape.circle),
                                   ),
                                 ),
@@ -145,7 +145,7 @@ class _StartedState extends State<Started> {
                                 height: getProportionateScreenHeight(5),
                                 width: getProportionateScreenWidth(5),
                                 decoration: const BoxDecoration(
-                                    color: Palette.whiteTextColor,
+                                    color: backGroundColor,
                                     shape: BoxShape.circle),
                               ),
                               SizedBox(
@@ -155,7 +155,7 @@ class _StartedState extends State<Started> {
                                 height: getProportionateScreenHeight(5),
                                 width: getProportionateScreenWidth(5),
                                 decoration: const BoxDecoration(
-                                    color: Palette.whiteTextColor,
+                                    color: backGroundColor,
                                     shape: BoxShape.circle),
                               )
                             ],
