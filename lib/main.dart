@@ -30,14 +30,9 @@ class MainSreen extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        primaryColor: Colors.black,
-        indicatorColor: Colors.black,
         scaffoldBackgroundColor: Colors.white,
         fontFamily: 'Muli',
-        textTheme: TextTheme(
-          bodyText1: TextStyle(color: kPrimaryColor),
-          bodyText2: TextStyle(color: kPrimaryColor), 
-          
+        textTheme: TextTheme(         
         ),
         visualDensity: VisualDensity.adaptivePlatformDensity,
         
