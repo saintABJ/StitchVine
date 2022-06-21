@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:stitch_vine/app_sreens/signup_screen.dart';
+import 'package:stitch_vine/app_screens/signup_screen.dart';
 import 'package:stitch_vine/utils/colors.dart';
 import 'package:stitch_vine/utils/custom_package.dart';
 import 'package:stitch_vine/utils/size_config.dart';

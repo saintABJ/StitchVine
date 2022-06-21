@@ -1,6 +1,6 @@
 //ignore_for_file: prefer_const_constructors
 import 'package:flutter/material.dart';
-import 'package:stitch_vine/app_sreens/splash_screen.dart';
+import 'package:stitch_vine/app_screens/splash_screen.dart';
 import 'package:stitch_vine/utils/colors.dart';
 
 

@@ -3,7 +3,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:blurrycontainer/blurrycontainer.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-import 'package:stitch_vine/app_sreens/login_screen.dart';
+import 'package:stitch_vine/app_screens/login_screen.dart';
 import 'package:stitch_vine/utils/colors.dart';
 import 'package:stitch_vine/utils/custom_package.dart';
 import 'package:stitch_vine/utils/size_config.dart';
