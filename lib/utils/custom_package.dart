@@ -1,9 +1,7 @@
-
-
 import 'package:flutter/material.dart';
 import 'package:stitch_vine/utils/size_config.dart';
 
-Text createGeneralText(
+Text customizedText(
     {required String inputText,
     required double fontSize,
     required String family,
@@ -26,7 +24,7 @@ Text createGeneralText(
   );
 }
 
-Container createButton(
+Container customizedButton(
       {required BuildContext context,
       required double height,
       required double width,
@@ -50,7 +48,7 @@ Container createButton(
           Navigator.push(
               context, MaterialPageRoute(builder: (context) => nextPage));
         },
-        child: createGeneralText(
+        child: customizedText(
             inputText: buttonText,
             fontSize: buttoTextSize,
             family: buttonTextfamily,

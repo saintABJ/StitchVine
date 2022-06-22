@@ -37,7 +37,7 @@ class _LogInScreenState extends State<LogInScreen> {
           SizedBox(
             height: getProportionateScreenHeight(20),
           ),
-          createGeneralText(
+          customizedText(
               inputText: 'Welcome Back!',
               fontSize: 24,
               family: 'Poppins-SemiBold',
@@ -117,12 +117,12 @@ class _LogInScreenState extends State<LogInScreen> {
             ],
           ),
           SizedBox(height: getProportionateScreenHeight(20)),
-          createButton(
+          customizedButton(
               context: context,
               height: 50,
               width: 285,
               buttonColor: kPrimaryColor,
-              nextPage: LogInScreen(),
+              nextPage: const LogInScreen(),
               buttonText: 'Log in',
               buttoTextSize: 16,
               buttonTextfamily: 'Poppins-Medium',
@@ -130,7 +130,7 @@ class _LogInScreenState extends State<LogInScreen> {
               buttonTextColor: backGroundColor,
               space: 0.06),
           SizedBox(height: getProportionateScreenHeight(208)),
-          createGeneralText(
+          customizedText(
               inputText: 'or Continue Using',
               fontSize: 12,
               family: 'Poppins-Regular',
@@ -147,7 +147,7 @@ class _LogInScreenState extends State<LogInScreen> {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              createGeneralText(
+              customizedText(
                   inputText: "Don’t have an account?",
                   fontSize: 14,
                   family: 'Poppins',
@@ -159,7 +159,7 @@ class _LogInScreenState extends State<LogInScreen> {
                     Navigator.push(
               context, MaterialPageRoute(builder: (context) => const SignUpScreen()));
                   },
-                  child: createGeneralText(
+                  child: customizedText(
                       inputText: "Sign up",
                   fontSize: 14,
                   family: 'Poppins',

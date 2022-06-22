@@ -57,7 +57,7 @@ class _StartedState extends State<Started> {
                             height: getProportionateScreenHeight(52),
                           ),
                           Center(
-                            child: createGeneralText(
+                            child: customizedText(
                               inputText: 'Join the best\ntailoring app',
                               fontSize: 28,
                               family: 'Vice City Sans',
@@ -70,7 +70,7 @@ class _StartedState extends State<Started> {
                             height: getProportionateScreenHeight(30),
                           ),
                           Center(
-                            child: createGeneralText(
+                            child: customizedText(
                               inputText:
                                   'Take your tailoring to the next level\nwith Stitch Vine',
                               fontSize: 15,
@@ -83,7 +83,7 @@ class _StartedState extends State<Started> {
                           SizedBox(
                             height: getProportionateScreenHeight(48),
                           ),
-                          createButton(
+                          customizedButton(
                               context: context,
                               height: 46,
                               width: 230,

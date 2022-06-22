@@ -44,7 +44,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   ),
                   onPressed: () => Navigator.pop(context),
                 ),
-                createGeneralText(
+                customizedText(
                     inputText: 'New Customer',
                     fontSize: 24,
                     family: 'Poppins-Bold',
@@ -66,7 +66,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     }),
                     child: Column(
                       children: [
-                        createGeneralText(
+                        customizedText(
                             inputText: "PERSONAL DATA",
                             fontSize: 10,
                             family: 'Poppins-Medium',
@@ -99,7 +99,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     }),
                     child: Column(
                       children: [
-                        createGeneralText(
+                        customizedText(
                             inputText: "MEASUREMENT INFO",
                             fontSize: 10,
                             family: 'Poppins-Medium',
@@ -191,7 +191,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   hinttext: '+234 813 631 6154',
                   isInput: false),
               SizedBox(height: getProportionateScreenHeight(38)),
-              createButton(
+              customizedButton(
                   context: context,
                   height: 48,
                   width: 303,
