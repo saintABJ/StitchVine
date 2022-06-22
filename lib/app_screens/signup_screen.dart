@@ -166,7 +166,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     borderRadius: BorderRadius.circular(10.0),
                   ),
                   prefixIcon: PopupMenuButton<String>(
-                    icon: const Icon(Icons.arrow_drop_down),
+              //      icon: const Icon(Icons.arrow_drop_down),
                     onSelected: (String value) {
                       _controller.text = value;
                     },
