@@ -2,6 +2,10 @@
 
 A new Flutter project.
 
+Implemented StitchVine figma degins
+
+App downloadable at https://drive.google.com/file/d/1EWMA1uHep1yU_20J8EmfL72A9y2eHYxD/view?usp=sharing
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
