@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:stitch_vine/app_screens/signup_screen.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
 import 'package:stitch_vine/utils/colors.dart';
 import 'package:stitch_vine/utils/custom_package.dart';
 import 'package:stitch_vine/utils/size_config.dart';
@@ -156,8 +157,9 @@ class _LogInScreenState extends State<LogInScreen> {
                   letterSpace: 0),
               TextButton(
                   onPressed: () {
-                    Navigator.push(
-              context, MaterialPageRoute(builder: (context) => const SignUpScreen()));
+              //       Navigator.push(
+              // context, MaterialPageRoute(builder: (context) => const SignUpScreen()));
+                  Get.toNamed('/signup');
                   },
                   child: customizedText(
                       inputText: "Sign up",
