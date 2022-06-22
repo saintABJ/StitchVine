@@ -1,7 +1,5 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:stitch_vine/app_screens/get_started_screen.dart';
 
 class SplashScreen extends StatefulWidget {
